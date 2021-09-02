@@ -1,10 +1,10 @@
-name= input()
-if name == "Kuddus":
-    print("Acccess Granted")
-else:
-    print("Fake User")
-password= input()
-if password == "2030":
-    print("Access Granted")
-else:
-    print("Fake User")
+name = 'Mary'
+password = 'swordfish'
+if name =='Mary':
+	print('Hello, Mary')
+	if password == 'swordfish':
+		print('Access granted.')
+	else:
+		print('Wrong password.')
+
+print('blockofcode done')
